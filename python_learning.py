@@ -1,4 +1,5 @@
-#ARITHMETIC OPERATION
+#OPERATORS
+#Arithmetic operators:
 num1=10
 num2=20
 print("num1 + num2 =", num1+num2)
@@ -10,18 +11,18 @@ print("20%3 =", 20%3)
 print("22//7=",22//7)
 print("3.8//2=",3.8//2)
 
-#assignment operators
+#assignment operators:
 num3 = num1 + num2
 print(num3)
 num3+=num2 #num3 = num3+ num2
 print(num3)
 
-#comparison operators
+#comparison operators:
 print("Is num3 > num2 ?", num3> num2)
 print("is num2 = num3 ?", num2 == num3)
 print("Is num1 != num2?", num1!= num2)
 
-#logical operators
+#logical operators:
 x=True #value of true is supposed to be 1
 y=False #value of false is supposed to be 0
 
@@ -29,7 +30,7 @@ print("X and Y", x and y)
 print("X or Y", x or y)
 print("not of X", not x)
 
-#bitwise operators
+#bitwise operators:
 num4 = 6  #bitwise value is 110
 num5 = 2  #bitwise value is 010
 print('Bitwise and=', num4 & num5)
@@ -38,8 +39,9 @@ print('Bitwise xor =', num4 ^ num5)
 print("num4 right shift by 2 positions= ", num4 >> 2)
 print("num5 left shift by 2 positions = ", num5 << 2)
 
-#identity operator
-#No examples shown in tutorial
+#identity operator: is, is not
+#No examples 
+#results in True if the identity is true, results in False if the identity is not true
 
 #Membership operators:
 #No examples shown in tutorial
